@@ -448,7 +448,7 @@ width: 17rem;
     }
 }
 
-@media screen and (max-width:400px){
+@media screen and (min-width:400px){
     .skills{
         transform: scale(60%);
         
@@ -462,7 +462,7 @@ width: 17rem;
 }
 @media screen and (min-width:250px) and (max-width:400px) {
     .skills{
-        transform: scale(80%);
+        scale: 0.7;
         
        }
        #hero__animation__img{
