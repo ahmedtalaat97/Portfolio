@@ -460,9 +460,24 @@ width: 17rem;
         font-size: 0.8rem;
           }
 }
-@media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:250px) and (max-width:400px) {
     .skills{
         transform: scale(80%);
         
        }
+       #hero__animation__img{
+        scale: 0.8;
+        margin-top: 0;
+       }
+       #hero h1{
+        font-size: 0.7rem;
+          }
+          #hero p{
+            font-size: 0.5rem;
+              }
+
+              .cards{
+                transform: scale(80%);
+              }
+
 }
