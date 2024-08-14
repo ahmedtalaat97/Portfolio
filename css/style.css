@@ -450,7 +450,7 @@ width: 17rem;
 
 @media screen and (min-width:400px){
     .skills{
-        transform: scale(60%);
+        scale: 0.8;
         
        }
       #hero h1{
